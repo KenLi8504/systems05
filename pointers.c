@@ -7,7 +7,6 @@ int main(){
   long longnumber = 2147483900;
 
   printf("Part 2 \n");
-  //Observation: Addresses are close together (apart by a few bytes)
   printf("The location of the character in hex is %p\n",&character);
   printf("The location of the integer in hex is %p\n", &integer);
   printf("The location of the long in hex is %p\n", &longnumber);
